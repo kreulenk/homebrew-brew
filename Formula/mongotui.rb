@@ -1,13 +1,13 @@
 class Mongotui < Formula
   desc "A TUI for MongoDB"
   homepage "https://github.com/kreulenk/mongotui"
-  url "https://github.com/kreulenk/mongotui/releases/download/v1.1.0/mongotui-darwin-amd64.tar.gz"
-  sha256 "78050890559f192fea39bc9060672046840cb82af48e7410f4671cb9e4ff6dfd"
-  version "v1.1.0"
+  url "https://github.com/kreulenk/mongotui/releases/download/v1.1.1/mongotui-darwin-amd64.tar.gz"
+  sha256 "d3e981cd13a4b92d5b7d44e0eba3b0c96331b2fa27da1c5cc82700ee23ce7fa0"
+  version "v1.1.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/kreulenk/mongotui/releases/download/v1.1.0/mongotui-darwin-arm64.tar.gz"
-    sha256 "21a6ce352bb7f137e64d9e0f97e5af3901b0744c3b3d6046485dce6738ffdd54"
+    url "https://github.com/kreulenk/mongotui/releases/download/v1.1.1/mongotui-darwin-arm64.tar.gz"
+    sha256 "a64d6f2cb03959c312c3573222152a8d56af51162301ec355f913708f0b1ba93"
   end
 
   def install
