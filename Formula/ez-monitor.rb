@@ -1,13 +1,13 @@
-class EZMonitor < Formula
+class EzMonitor < Formula
   desc "A tool to easily monitor your infrastructure via ssh"
   homepage "https://github.com/kreulenk/ez-monitor"
   url "https://github.com/kreulenk/ez-monitor/releases/download/v0.1.0/ez-monitor-darwin-amd64.tar.gz"
-  sha256 "251f959c1c1141abbbb8ffd603f72f7d837cfc9330985c24de22644be17629a9"
+  sha256 "c1bfe20295fde0ef2c05f32c130e7755a5ba8d39ef85cd72f9271ff6778ca354"
   version "v0.1.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/kreulenk/ez-monitor/releases/download/v0.1.0/ez-monitor-darwin-arm64.tar.gz"
-    sha256 "083f0c070b964d69e9527f94646ca31940be063ed58ec6337018a3c199d18ce9"
+    sha256 "cee92474409b617ad0a3c73c8dc6d8d5dfc1858034cefdd1c96e6bf0d2a94b20"
   end
 
   def install
